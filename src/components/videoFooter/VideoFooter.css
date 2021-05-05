@@ -1,0 +1,51 @@
+.videoFooter {
+  position: relative;
+  bottom: 130px;
+  margin-left: 40px;
+  color: white;
+  display: flex;
+}
+
+.videoFooter__text {
+  flex: 1;
+}
+
+.videoFooter__icon {
+  position: absolute;
+}
+
+.videoFooter__ticker > .ticker {
+  height: fit-content;
+  margin-left: 30px;
+  width: 60%;
+}
+
+.videoFooter__ticker > h1 {
+  padding-top: 7px;
+}
+
+.videoFooter__songLogo {
+  height: 50px;
+  filter: invert(1);
+  animation: logoSpinner infinite 5s linear;
+  position: absolute;
+  bottom: 0;
+  right: 20px;
+}
+
+@keyframes logoSpinner {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(380deg);
+  }
+}
+
+.videoFooter__text > h3 {
+  padding-bottom: 15px;
+}
+
+.videoFooter__text > p {
+  padding-bottom: 15px;
+}

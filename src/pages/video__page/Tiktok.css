@@ -1,0 +1,29 @@
+html {
+  scroll-snap-type: y mandatory;
+}
+
+.tiktok {
+  background: black;
+  height: 100vh;
+  display: grid;
+  place-items: center;
+}
+
+.tiktok__videos {
+  position: relative;
+  border-radius: 20px;
+  height: 600px;
+  overflow: scroll;
+  width: 80%;
+  max-width: 425px;
+  scroll-snap-type: y mandatory;
+}
+
+.tiktok__videos::-webkit-scrollbar {
+  display: none;
+}
+
+.tiktok__videos {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
